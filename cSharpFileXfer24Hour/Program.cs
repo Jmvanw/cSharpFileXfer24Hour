@@ -22,8 +22,8 @@ namespace cSharpFileXfer24Hour
 
         static string copyOver()
         {
-            string srcDir = @"C:\Users\jmvan\Desktop\Folder A\";
-            string desDir = @"C:\Users\jmvan\Desktop\Folder B\";
+            string srcDir = @"C:\Users\jmvan\Desktop\Folder A\"; //change to whatever you want your source file to be
+            string desDir = @"C:\Users\jmvan\Desktop\Folder B\"; //change to whatever you want your destination file to be
             string FilesToMove = @"*.txt";
             var files = new DirectoryInfo(srcDir).GetFiles(FilesToMove);
             
